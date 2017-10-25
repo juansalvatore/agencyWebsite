@@ -1,1 +1,1 @@
-.menuContainer{position:fixed;width:100vw;height:100vh;background-color:rgba(255,255,255,0.98);z-index:4;opacity:0;transition:all ease-in-out 300ms}.on{opacity:1 !important}
+.menuContainer{position:fixed;width:0;height:100vh;background-color:rgba(255,255,255,0.98);z-index:4;opacity:0;transition:all ease-in-out 300ms}.on{opacity:1 !important;width:100vw !important}
