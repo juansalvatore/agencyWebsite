@@ -8,8 +8,15 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
     <link rel="stylesheet" href="styles/landing-style.min.css">
     <link rel="stylesheet" href="styles/menuIconStyle.css">
+    <link rel="stylesheet" href="styles/menu-style.min.css">
   </head>
   <body>
+    <!-- MENU CONTAINER -->
+    <div class="menuContainer">
+
+    </div>
+
+    <!-- LEFT MENU ICON CONTAINER  -->
     <div class="menu">
       <div id="target" class="menu-container">
         <div class="bars"><span></span><span></span><span></span>
@@ -17,10 +24,13 @@
         </div>
       </div>
     </div>
+
+    <!-- TOP BAR WITH SUDCO LOGO -->
     <div class="header ">
       <img src="Logo-03.png" alt="">
     </div>
 
+    <!-- RIGHT BAR WITH SOCIAL NETWORKS -->
     <div class="redes">
       <!-- FACEBOOK -->
       <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="13" viewBox="0 0 6.24 13">
@@ -45,6 +55,7 @@
                 </a>
     </div>
 
+    <!-- BOTTOM BAR -->
     <div class="bottom">
   		<i class="arrow">
         <!-- <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 17 10"><path class="cls-1" d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"></path>
@@ -52,14 +63,18 @@
       </i>
     </div>
 
+    <!-- YELLOW BAR AND HELLO.IMG CONTAINER -->
     <div class="container">
       <img class="textoHola" src="HE LLO.png" alt="">
       <div class="yellowBar barraAmarilla"></div>
     </div>
 
+    <!-- CONTAINER FOR THE MAIN CONTENT OF THE PAGE -->
     <div class="infoContainer">
 
     </div>
+
+    <!-- TRIGGER FOR HEADER'S YELLOW BAR / TEXT / PARAGRAPH / -->
     <div class="animationTrigger animacionBarra"></div>
 
     <!-- call to JQUERY -->

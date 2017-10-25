@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+#target, .menu {
+  z-index: 100;
+}
+
 .menu-container {
   position: absolute;
   top: 45%;
@@ -11,6 +15,7 @@ body {
   transform: scale(0.4);
   z-index: 100;
 }
+
 .menu-container .bars {
   width: 120px;
   height: 70px;
@@ -19,6 +24,7 @@ body {
   transition: -webkit-transform 0.3s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.3s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.3s cubic-bezier(0.694, 0.048, 0.335, 1), -webkit-transform 0.3s cubic-bezier(0.694, 0.048, 0.335, 1);
+  z-index: 100;
 }
 .menu-container .bars span {
   display: block;
@@ -26,6 +32,7 @@ body {
   height: 10px;
   background-color: #1C1B20;
   margin-top: 20px;
+  z-index: 100;
 }
 .menu-container .bars span:first-child {
   margin-top: 0;
@@ -37,6 +44,7 @@ body {
   transition: transform 0.2s cubic-bezier(0.694, 0.048, 0.335, 1), -webkit-transform 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
+  z-index: 100;
 }
 .menu-container .bars span:nth-child(3) {
   width: 65%;
@@ -44,6 +52,7 @@ body {
   transition: width 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
+  z-index: 100;
 }
 .menu-container .bars .other-bar {
   width: 10px;
@@ -55,13 +64,14 @@ body {
   margin-left: -5px;
   -webkit-transition: height 0.4s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: height 0.4s cubic-bezier(0.694, 0.048, 0.335, 1);
-  z-index: 10;
+  z-index: 100;
 }
 .menu-container.is-menu-open .bars {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
+  z-index: 100;
 }
 .menu-container.is-menu-open .bars span:first-child {
   -webkit-transform: scaleX(0);
@@ -70,11 +80,13 @@ body {
   transition: -webkit-transform 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.2s cubic-bezier(0.694, 0.048, 0.335, 1), -webkit-transform 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
+  z-index: 100;
 }
 .menu-container.is-menu-open .bars span:nth-child(3) {
   width: 0;
   -webkit-transition: width 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: width 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
+  z-index: 100;
 }
 .menu-container.is-menu-open .bars .other-bar {
   height: 120px;
@@ -82,4 +94,5 @@ body {
   transition: height 0.2s cubic-bezier(0.694, 0.048, 0.335, 1);
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+  z-index: 100;
 }
