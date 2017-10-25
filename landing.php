@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/landing-style.min.css">
     <link rel="stylesheet" href="styles/menuIconStyle.css">
     <link rel="stylesheet" href="styles/menu-style.min.css">
+    <link rel="stylesheet" href="styles/scrollAnimationIcon.css">
   </head>
   <body>
     <!-- MENU CONTAINER -->
@@ -57,10 +58,7 @@
 
     <!-- BOTTOM BAR -->
     <div class="bottom">
-  		<i class="arrow">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 17 10"><path class="cls-1" d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"></path>
-        </svg> -->
-      </i>
+      <a href="#" class="scroll-icon"></a>
     </div>
 
     <!-- YELLOW BAR AND HELLO.IMG CONTAINER -->
