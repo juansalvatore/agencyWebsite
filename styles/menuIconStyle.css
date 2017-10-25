@@ -6,6 +6,10 @@ body {
   z-index: 100;
 }
 
+.menu:hover {
+  cursor: pointer;
+}
+
 .menu-container {
   position: absolute;
   top: 45%;
