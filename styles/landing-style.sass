@@ -1,6 +1,7 @@
 *
   box-sizing: border-box
 
+
 html
   height: 100%
   padding: 0
@@ -53,6 +54,11 @@ body
   bottom: 0
   z-index: 3
 
+  .arrow
+    -webkit-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
+    -moz-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
+    animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
+
 .container
   position: fixed
   bottom: 0
@@ -67,7 +73,8 @@ body
     height: 100vh
     width: 51vw
     background-color: #FDEB49
-    transition: all ease-in-out 300ms
+    transition: all cubic-bezier(0.54, 0.07, 0.26, 0.99) 1150ms
+
 
   img
     position: absolute
@@ -76,6 +83,7 @@ body
     transform: translate(-50%, -50%)
     width: 25%
     z-index: 3
+    transition: all cubic-bezier(0.54, 0.07, 0.26, 0.99) 1000ms
 
 
 .infoContainer
@@ -85,3 +93,17 @@ body
   height: 8000px
   background-color: #F8F8F8
   z-index: 2
+
+.animationTrigger
+  width: 100px
+  height: 100px
+  position: absolute
+  left: 50%
+  top: 3px
+  z-index: 50
+
+.animate
+  width: 100vw !important
+
+.moverTexto
+  left: 95% !important
