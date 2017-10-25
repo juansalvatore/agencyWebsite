@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/landing-style.min.css">
     <link rel="stylesheet" href="styles/menuIconStyle.css">
     <link rel="stylesheet" href="styles/menu-style.min.css">
-    <link rel="stylesheet" href="styles/scrollAnimationIcon.css'">
+    <link rel="stylesheet" href="styles/scrollAnimationIcon.css">
   </head>
   <body>
     <!-- MENU CONTAINER -->
