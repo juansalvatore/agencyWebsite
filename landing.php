@@ -7,14 +7,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
     <link rel="stylesheet" href="styles/landing-style.min.css">
+    <link rel="stylesheet" href="styles/menuIconStyle.css">
   </head>
   <body>
     <div class="menu">
-
+      <div id="target" class="menu-container">
+        <div class="bars"><span></span><span></span><span></span>
+          <div class="other-bar"></div>
+        </div>
+      </div>
     </div>
     <div class="header ">
       <img src="Logo-03.png" alt="">
     </div>
+
     <div class="redes">
       <!-- FACEBOOK -->
       <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="13" viewBox="0 0 6.24 13">
@@ -64,5 +70,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <!-- call to controller script -->
     <script type="text/javascript"  src="animationControllerIndex.js"></script>
+    <!-- MENU SCRIPT -->
+    <script type="text/javascript" src="menuController.js"></script>
   </body>
 </html>
