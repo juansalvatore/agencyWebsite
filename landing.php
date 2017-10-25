@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/landing-style.min.css">
     <link rel="stylesheet" href="styles/menuIconStyle.css">
     <link rel="stylesheet" href="styles/menu-style.min.css">
-    <link rel="stylesheet" href="styles/scrollAnimationIcon.css">
+    <link rel="stylesheet" href="styles/scrollAnimationIcon.css'">
   </head>
   <body>
     <!-- MENU CONTAINER -->
@@ -63,6 +63,10 @@
 
     <!-- YELLOW BAR AND HELLO.IMG CONTAINER -->
     <div class="container">
+      <div id="contenido" class="textContent">
+        <h2>Sud Co</h2>
+        <p>Somos un galpón creativo, lleno de ideas, que ofrece soluciones en comunicación digital, marketing e innovación.</p>
+      </div>
       <img class="textoHola" src="HE LLO.png" alt="">
       <div class="yellowBar barraAmarilla"></div>
     </div>

@@ -11,9 +11,9 @@ $(document).ready(function () {
       triggerHook: 0
     })
     .setClassToggle('.barraAmarilla', 'animate') // add class to #img-1
-    .addIndicators({
-      name: 'fade in'
-    })
+    // .addIndicators({
+    //   name: 'fade in'
+    // })
     .addTo(controller);
   });
 
@@ -35,15 +35,15 @@ $(document).ready(function () {
   });
 
   //////////////
-  $('.diagonal-b').each(function(){
+  $('.animacionBarra').each(function(){
     // buld a scene
     var ourScene = new ScrollMagic.Scene({
       triggerElement: this,
       //duration: '90%',
       //reverse: false,
-      triggerHook: 0.9
+      triggerHook: 0
     })
-    .setClassToggle(this, 'diagonal-on') // add class to #img-1
+    .setClassToggle('#contenido', 'show') // add class to #img-1
     // .addIndicators({
     //   name: 'Diagonal On'
     // })

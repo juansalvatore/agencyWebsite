@@ -14,7 +14,7 @@ body
   padding: 0
   background-color: white
   height: 100%
-
+  font-family: 'Montserrat', sans-serif
 
 .menu
   position: fixed
@@ -49,7 +49,7 @@ body
   flex-direction: column
   justify-content: center
   align-items: center
-  
+
 
 .bottom
   position: fixed
@@ -72,12 +72,31 @@ body
   background-color: #F8F8F8
   z-index: 1
 
+  .textContent
+    position: fixed
+    color: #1C1B20
+    top: 40%
+    left: 20%
+    z-index: 5
+    width: 500px
+    font-size: 20px
+    opacity: 0
+    transition: all ease-in-out 700ms
+
+    h2
+      margin: 0
+
+    p
+      margin-top: 0px
+      color: white
+      font-size: 20px
+      line-height: 27x
 
   .yellowBar
     position: fixed
     height: 100vh
     width: 51vw
-    background-color: #FDEB49
+    background-color: #F2DE4C
     transition: all cubic-bezier(0.54, 0.07, 0.26, 0.99) 1150ms
 
 
@@ -112,3 +131,6 @@ body
 
 .moverTexto
   left: 95% !important
+
+.show
+  opacity: 1 !important
