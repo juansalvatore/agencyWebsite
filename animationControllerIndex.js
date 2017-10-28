@@ -12,8 +12,8 @@ $(document).ready(function () {
     })
     .setClassToggle('.barraAmarilla', 'animate') // add class to #img-1
     // .addIndicators({
-    //   name: 'fade in'
-    // })
+    //    name: 'fade in'
+    //  })
     .addTo(controller);
   });
 
@@ -49,4 +49,6 @@ $(document).ready(function () {
     // })
     .addTo(controller);
   });
+
+
 });
