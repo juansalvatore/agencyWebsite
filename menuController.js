@@ -9,6 +9,9 @@ $(document).ready(function () {
       $('.bottom').css("height", "15%");
       $('#sudcoHeader').css("top", "55px");
       $('#sudcoHeader').css("left", "185px");
+      $(".menu-container").css("transform", "scale(0.3) rotate(45deg)");
+      $(".menu-container").css("left", "100px");
+      $(".menu-container").css("transition", "all ease-in-out 300ms");
 
     } else {
       $(this).removeClass('two').addClass('one');
@@ -17,6 +20,8 @@ $(document).ready(function () {
       $('.bottom').css("height", "40px");
       $('#sudcoHeader').css("top", "8px");
       $('#sudcoHeader').css("left", "40px");
+      $(".menu-container").css("left", "-15px");
+      $(".menu-container").css("transform", "scale(0.2) rotate(0deg)");
     }
   });
 
