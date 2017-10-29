@@ -4,9 +4,10 @@ $(document).ready(function () {
 
     if($(this).hasClass('one')) {
       $(this).removeClass('one').addClass('two');
-      $('.menu').css("width", "70%");
-      $('.header').css("height", "15%");
-      $('.bottom').css("height", "15%");
+      $('.menu').css("width", "80%");
+      $('.header').css("height", "12%");
+      $('.bottom').css("height", "12%");
+      $('.redes').css("width", "60px");
       $('#sudcoHeader').css("top", "55px");
       $('#sudcoHeader').css("left", "185px");
       $(".menu-container").css("transform", "scale(0.3) rotate(45deg)");
@@ -18,6 +19,7 @@ $(document).ready(function () {
       $('.menu').css("width", "40px");
       $('.header').css("height", "40px");
       $('.bottom').css("height", "40px");
+      $('.redes').css("width", "40px");
       $('#sudcoHeader').css("top", "8px");
       $('#sudcoHeader').css("left", "40px");
       $(".menu-container").css("left", "-15px");
