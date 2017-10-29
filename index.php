@@ -19,7 +19,7 @@
 
     <!-- LEFT MENU ICON CONTAINER  -->
     <div class="menu">
-      <div id="target" class="menu-container">
+      <div id="target" class="menu-container one">
         <div class="bars"><span></span><span></span><span></span>
           <div class="other-bar"></div>
         </div>
@@ -28,7 +28,7 @@
 
     <!-- TOP BAR WITH SUDCO LOGO -->
     <div class="header ">
-      <img src="Logo-03.png" alt="">
+      <img id="sudcoHeader"src="Logo-03.png" alt="">
     </div>
 
     <!-- RIGHT BAR WITH SOCIAL NETWORKS -->
