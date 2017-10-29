@@ -46,7 +46,7 @@
 							</svg></a>
       <br>
       <!-- TWITTER -->
-      <a href="#" rel="external" target="_blank">
+      <a href="#">
                   <i class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13.17 10.6">
                     <title>twitter</title>
