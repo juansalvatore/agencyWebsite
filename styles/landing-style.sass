@@ -81,23 +81,32 @@ body
   background-color: #F8F8F8
   z-index: 1
 
-  .textContent
-    position: fixed
-    color: #1C1B20
+  h1
+    position: absolute
     top: 50%
-    left: 20%
+
+  p
+    position: absolute
+
+  .textContent
+    position: relative
+    color: #1C1B20
+    top: 60%
+    left: 15%
     z-index: 5
     width: 500px
     font-size: 20px
     opacity: 0
     transition: all ease-in-out 700ms
 
+
     h2
       margin: 0
 
     p
       margin-top: 0px
-      color: white
+      color: black
+      font-family: 'Monaco'
       font-size: 20px
       line-height: 27x
 
@@ -145,3 +154,8 @@ body
 
 .show
   opacity: 1 !important
+
+.working
+  position: absolute
+  top: -213px
+  left: -16px

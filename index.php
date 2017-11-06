@@ -115,6 +115,11 @@
       <div id="contenido" class="textContent">
         <!-- <h2>Sud Co</h2>
         <p>Somos un galpón creativo, lleno de ideas, que ofrece soluciones en comunicación digital, marketing e innovación.</p> -->
+        <div class="working">
+          <h3>Estamos trabajando en nuestra web para mostrarte muy pronto todos los servicios y trabajos realizados</h3>
+          <p>En sud diseñamos y desarrollamos:</p>
+        </div>
+
         <div class="container auto-type-element">
         	<h2><span class=" block"><span class="write"></span></span></h2>
         </div>
