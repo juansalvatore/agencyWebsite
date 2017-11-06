@@ -10,6 +10,55 @@
     <link rel="stylesheet" href="styles/menuIconStyle.css">
     <link rel="stylesheet" href="styles/menu-style.min.css">
     <link rel="stylesheet" href="styles/scrollAnimationIcon.css">
+    <style type="text/css">
+      h2 {
+          color: white;
+          font-family: 'Monaco';
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 1.5;
+          text-decoration: none;
+          text-transform: none;
+      }
+      .typed-cursor {
+        opacity: 1;
+        -webkit-animation: blink 0.5s infinite;
+        -moz-animation: blink 0.5s infinite;
+        animation: blink 0.5s infinite;
+      }
+      @keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+      @-webkit-keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+      @-moz-keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+      .auto-type-element span.block {
+          background: black !important;
+          padding: 10px;
+          z-index: 1;
+          position: absolute;
+          top: 50%;
+          left: 30%;
+          transform: translate(-50%,-50%);
+
+      }
+  		.write{
+  			font-size: 14px;
+  		}
+  		.container{
+  			text-align: center;
+  		}
+  	</style>
   </head>
   <body>
     <!-- MENU CONTAINER -->
@@ -62,10 +111,13 @@
     </div>
 
     <!-- YELLOW BAR AND HELLO.IMG CONTAINER -->
-    <div class="container">
+    <div class="container2">
       <div id="contenido" class="textContent">
-        <h2>Sud Co</h2>
-        <p>Somos un galpón creativo, lleno de ideas, que ofrece soluciones en comunicación digital, marketing e innovación.</p>
+        <!-- <h2>Sud Co</h2>
+        <p>Somos un galpón creativo, lleno de ideas, que ofrece soluciones en comunicación digital, marketing e innovación.</p> -->
+        <div class="container auto-type-element">
+        	<h2><span class=" block"><span class="write"></span></span></h2>
+        </div>
       </div>
       <img class="textoHola" src="HE LLO.png" alt="">
       <div class="yellowBar barraAmarilla"></div>
@@ -85,9 +137,28 @@
     <!-- call to library for controlling GIF animation -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <!-- call to typed library -->
+	  <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
     <!-- call to controller script -->
     <script type="text/javascript"  src="animationControllerIndex.js"></script>
     <!-- MENU SCRIPT -->
     <script type="text/javascript" src="menuController.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+        $(".write").typed({
+          contentType:"html",
+          shuffle: false,
+          loop:true,
+          loopCount:0,
+          typeSpeed:100,
+          backSpeed:50,
+          startDelay:1000,
+          backDelay:800,
+          showCursor:true,
+          cursorChar:"_",
+          strings:["Sitios Web 100% Responsive","APPs Mobiles","Construimos Marcas", "Hacemos Marketing", "Y te ayudamos a lanzarte y recorrer juntos el mundo digital",""]
+        });
+      });
+    </script>
   </body>
 </html>

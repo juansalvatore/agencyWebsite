@@ -1,5 +1,7 @@
 *
   box-sizing: border-box
+  // -webkit-font-smoothing: antialiased
+  letter-spacing: 0.5px
 
 
 html
@@ -24,6 +26,8 @@ body
   left: 0
   z-index: 3
   transition: all ease-in-out 300ms
+  display: flex
+  justify-content: center
 
 .header
   position: fixed
@@ -69,7 +73,7 @@ body
     -moz-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
     animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
 
-.container
+.container2
   position: fixed
   bottom: 0
   width: 100vw
@@ -80,7 +84,7 @@ body
   .textContent
     position: fixed
     color: #1C1B20
-    top: 40%
+    top: 50%
     left: 20%
     z-index: 5
     width: 500px

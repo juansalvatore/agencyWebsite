@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $( "#target" ).click(function() {
     $(".menu-container").toggleClass("is-menu-open");
-
+    // FIRST CLICK
     if($(this).hasClass('one')) {
       $(this).removeClass('one').addClass('two');
       $('.menu').css("width", "80%");
@@ -11,10 +11,11 @@ $(document).ready(function () {
       $('#sudcoHeader').css("top", "55px");
       $('#sudcoHeader').css("left", "185px");
       $(".menu-container").css("transform", "scale(0.3) rotate(45deg)");
-      $(".menu-container").css("left", "100px");
+      $(".menu-container").css("left", "70px");
       $(".menu-container").css("transition", "all ease-in-out 300ms");
 
     } else {
+      // SECOND CLICK
       $(this).removeClass('two').addClass('one');
       $('.menu').css("width", "40px");
       $('.header').css("height", "40px");
